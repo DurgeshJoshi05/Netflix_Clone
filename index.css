@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Netflix\ Cover.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 1%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button {
+    height: 32px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+
+}
+
+#nav-drop {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    color: white;
+}
+
+#nav-drop img {
+    width: 10px;
+    margin-left: 43px;
+    margin-right: 20px;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.header-content h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email-signup {
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.email-signup button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    columns: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+.content {
+    height: 295px;
+    width: 100%;
+    border-top: 8px;
+    background-color: black;
+    margin: 0;
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-top: 8px solid rgba(187, 173, 173, 0.259);
+
+
+}
+
+.content-part {
+    border: 0;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 290px;
+    width: 430px;
+    background-color: black;
+
+
+}
+
+.content-img {
+    border: 0;
+    margin-right: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 290px;
+    width: 430px;
+    background-color: black;
+    background-image: url('2.jpg');
+    background-size: cover;
+    background-color: black;
+
+}
+
+.content-part2 {
+    border: 0;
+    margin: 47px;
+    padding-left: 106px;
+    padding-right: 121px;
+    height: 290px;
+    width: 430px;
+    background-color: black;
+    padding-bottom: 66px;
+
+
+}
+
+.content-que {
+    height: 700px;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-top: 2px solid gray;
+    border-top: 8px solid rgba(187, 173, 173, 0.259);
+
+}
+
+.que-title {
+    height: 60px;
+    width: 93.5%;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 48px;
+    margin-left: 48px;
+    color: #000;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0px;
+    font-size: xx-large;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+
+}
+
+.que-box {
+    height: 380px;
+    width: 600px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 450px;
+    padding-right: 400px;
+
+    margin: 0;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.title-faq {
+    height: 25px;
+    width: 520px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*border: 1px solid white;*/
+    margin-right: 30px;
+    background-color: rgba(201, 207, 206, 0.286);
+    font-weight: 700;
+    font-size: large;
+    display: flex;
+
+}
+
+.icon {
+    display: flex;
+    align-items: end;
+    padding-left: 500px;
+    position: absolute;
+
+}
+
+.que-msg {
+    height: 160px;
+    width: 700px;
+    margin-left: 420px;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.que-msg input {
+    width: 410px;
+    height: 50px;
+    padding-left: 8px;
+    columns: white;
+}
+
+.que-btn {
+    height: 50px;
+    width: 80px;
+    padding-top: 13px;
+    padding-bottom: 13;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.email-signup {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 4px;
+
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    font-size: 17px;
+
+}
+
+.faq-btn {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    columns: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    color: white;
+    border: 1px red solid;
+    color: #fff;
+
+}
+
+.footer {
+    height: 400px;
+    width: 100%;
+    border-top: 8px solid rgba(187, 173, 173, 0.259);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e8e3e396;
+    padding-top: -10px;
+}
+
+.foot-box {
+    height: 280px;
+    width: 700px;
+    color: #e8e3e396;
+}
+
+.foot-row2 {
+    margin-top: 20px;
+    display: flex;
+    color: #e8e3e396;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.foot-row1 {
+    padding-left: 90px;
+    margin-top: 43px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    color: #e8e3e396;
+    font-family: sans-serif;
+}
+
+.dropdown {
+    height: 25px;
+    width: 85px;
+    padding-left: 70px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 26px;
+
+
+}
+
+.dropdown button {
+    height: 42px;
+    width: 98px;
+    background-color: black;
+    color: #e8e3e396;
+}
+.foot-row4{
+    color: #e8e3e396;
+    padding-left: 78px;
+    padding-top: 15px;
+}
